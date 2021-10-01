@@ -11,5 +11,5 @@ actions:
   - text: 项目简介
     link: /guide/about/
     type: secondary
-footer: MIT Licensed | Copyright © 2021 iYuan Organization
+footer: MIT Licensed | Copyright © 2021 iYuan Organization | 蜀ICP备19018142号-102
 ---
