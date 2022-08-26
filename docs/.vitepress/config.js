@@ -16,7 +16,7 @@ export default {
             {
                 text: '指南',
                 items: [
-                    { text: '快速开始', link: '/item-1' },
+                    { text: '快速开始', link: '/guide/mc/getting-started' },
                 ]
             }
         ],
