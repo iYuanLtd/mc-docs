@@ -14,7 +14,7 @@ hero:
       link: /guide/mc/getting-started
     - theme: alt
       text: Github 仓库
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/iYuanLtd/mc-docs
 
 features:
   - icon: ⚡️
