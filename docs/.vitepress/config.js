@@ -33,6 +33,7 @@ export default {
         // 编辑链接
         editLink: {
             pattern: 'https://github.com/iYuanLtd/mc-docs/edit/main/docs/:path',
+            text: '编辑此页面',
         },
         // 侧边栏配置
         sidebar,
@@ -41,9 +42,6 @@ export default {
         docFooter: {
             prev: '上一篇',
             next: '下一篇',
-        },
-        editLink: {
-            text: '编辑此页面',
         }
     },
 
