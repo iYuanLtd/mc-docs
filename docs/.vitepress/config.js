@@ -5,7 +5,6 @@ import head from './configs/head'
 export default {
     // 全站配置
     lastUpdated: true,
-    cleanUrls: 'without-subfolders',
 
     // 主题配置
     themeConfig: {
