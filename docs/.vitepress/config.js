@@ -14,15 +14,12 @@ export default {
             message: 'Released under the CC BY-NC-ND 4.0 License.',
             copyright: 'Copyright © 2022 iYuan Ltd.'
         },
-
         // Logo
         logo: '/assets/img/logo.svg',
-
         // 社交链接
         socialLinks: [
             { icon: 'github', link: 'https://github.com/iYuanLtd/mc-docs' },
         ],
-
         // 语言选择
         localeLinks: {
             text: 'Language',
@@ -31,35 +28,31 @@ export default {
                 { text: '简体中文', link: '/' },
             ],
         },
-
         // 导航栏配置
         nav,
-
         // 编辑链接
         editLink: {
             pattern: 'https://github.com/iYuanLtd/mc-docs/edit/main/docs/:path',
         },
-
         // 侧边栏配置
         sidebar,
+        // 汉化相关
+        lastUpdatedText: '最后更新于',
+        docFooter: {
+            prev: '上一篇',
+            next: '下一篇',
+        },
+        editLink: {
+            text: '编辑此页面',
+        }
     },
 
+    // 多语言配置
     locales: {
         '/': {
             title: 'MC 指南',
             description: 'Minecraft 指南.',
             lang: 'zh-CN',
-            themeConfig: {
-                // 汉化相关
-                lastUpdatedText: '最后更新于',
-                docFooter: {
-                    prev: '上一篇',
-                    next: '下一篇',
-                },
-                editLink: {
-                    text: '编辑此页面',
-                }
-            }
         },
 
         '/en/': {
