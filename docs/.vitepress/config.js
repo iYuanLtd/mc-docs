@@ -1,43 +1,71 @@
+import nav from './configs/navbar'
+import sidebar from './configs/sidebar'
+import head from './configs/head'
+
 export default {
-    title: 'MC 指南',
-    description: 'Minecraft 指南.',
-    algolia: {
-        appId: 'SFUY9XHV1W',
-        apiKey: '9bd129c31064bed280402cc8bb6989c7',
-        indexName: 'vitepress'
-    },
+    // 全站配置
+    lastUpdated: true,
+    cleanUrls: 'without-subfolders',
+
+    // 主题配置
     themeConfig: {
+        // 页脚配置
         footer: {
             message: 'Released under the GPL License.',
             copyright: 'Copyright © 2022 iYuan Ltd.'
         },
+
+        // Logo
         logo: '/assets/img/logo.svg',
-        nav: [
-            {
-                text: '指南',
-                items: [
-                    { text: '快速开始', link: '/guide/mc/getting-started' },
-                ]
-            }
+
+        // 社交链接
+        socialLinks: [
+            { icon: 'github', link: 'https://github.com/iYuanLtd/mc-docs' },
         ],
-        editLink: {
-            pattern: 'https://github.com/iYuanLtd/mc-docs/edit/main/docs/:path'
+
+        // 语言选择
+        localeLinks: {
+            text: 'Language',
+            items: [
+                { text: 'English', link: '/en/' },
+                { text: '简体中文', link: '/' },
+            ],
         },
-        sidebar: [
-            {
-                text: '项目',
-                collapsible: true,
-                items: [{ text: '项目简介', link: '/guide/' },]
-            },
-            {
-                text: '游戏相关',
-                collapsible: true,
-                items: [
-                    { text: '游戏简介', link: '/guide/mc/' },
-                    { text: '快速开始', link: '/guide/mc/getting-started' },
-                    { text: '接入第三方皮肤站', link: '/guide/mc/authlib' },
-                ]
+
+        // 导航栏配置
+        nav,
+
+        // 编辑链接
+        editLink: {
+            pattern: 'https://github.com/iYuanLtd/mc-docs/edit/main/docs/:path',
+        },
+
+        // 侧边栏配置
+        sidebar,
+    },
+
+    locales: {
+        '/': {
+            title: 'MC 指南',
+            description: 'Minecraft 指南.',
+            lang: 'zh-CN',
+            themeConfig: {
+                // 汉化相关
+                lastUpdatedText: '最后更新于',
+                docFooter: {
+                    prev: '上一篇',
+                    next: '下一篇',
+                },
+                editLink: {
+                    text: '编辑此页面',
+                }
             }
-        ]
-    }
+        },
+
+        '/en/': {
+            title: 'MC Guide',
+            description: 'Minecraft Guide.',
+            lang: 'en-US',
+        }
+    },
 }

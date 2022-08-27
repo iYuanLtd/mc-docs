@@ -2,33 +2,37 @@
 layout: home
 
 hero:
-  name: Minecraft 指南
-  text: 下载游戏、皮肤站登录、搭建服务器等等
-  tagline: 为 Minecraft 小白提供帮助的指南
+  name: Minecraft Guide
+  text: How to Play, Authlib, Create a Server...
+  tagline: A Guide to Help Minecraft Beginners!
   image:
     src: /assets/img/logo.svg
     alt: Minecraft Grass Block
   actions:
     - theme: brand
-      text: 快速开始
-      link: /guide/game/getting-started
+      text: Getting Started
+      link: /en/guide/game/getting-started
     - theme: alt
-      text: Github 仓库
+      text: Github Repo
       link: https://github.com/iYuanLtd/mc-docs
 
 features:
   - icon: ⚡️
-    title: 下载游戏
-    details: 详细过程教您如何正确快速下载 Java 和游戏本体...
+    title: Downloading Games.
+    details: The detailed process teaches you how to download Java and the game itself correctly and quickly...
   - icon: 🖖
-    title: 皮肤站登录
-    details: 教您如何正确使用皮肤站登录并加入服务器...
+    title: Authlib.
+    details: Teach you how to properly use Authlib to log in and join the server...
   - icon: 🛠️
-    title: 搭建服务器
-    details: 教您如何搭建自己心仪的服务器...
+    title: Create a Server.
+    details: Teach you how to build your ideal server...
 ---
 
-<div class="team-title">制作团队</div>
+<div class="alert">
+    📢 The English document has not been translated yet, please understand.
+</div>
+
+<div class="team-title">Team</div>
 
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
@@ -65,6 +69,23 @@ const members = [
 <VPTeamMembers size="small" :members="members" />
 
 <style scoped>
+    .alert{
+        margin-left:auto;
+        margin-right:auto;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin-top:1.5rem;
+        padding:2rem;
+        background-color: #106e37;
+        color:#fff;
+        font-size:24px;
+        font-weight:800;
+        width:80%;
+        border-radius:1.5rem;
+        line-height:2rem;
+    }
+
     .team-title{
         display:flex;
         justify-content:center;
