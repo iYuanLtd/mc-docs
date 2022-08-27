@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://mcdocs.iyuan.ltd/" target="_blank" rel="noreferrer noopener">
-  <img src="https://raw.githubusercontent.com/iYuanLtd/mc-docs/main/docs/public/assets/img/github.png" alt="Minecraft Guide" width="500">
+  <img src="https://raw.githubusercontent.com/iYuanLtd/mc-docs/main/docs/public/assets/img/github.png" alt="Minecraft Guide" width="400">
 </a>
 </p>
 
