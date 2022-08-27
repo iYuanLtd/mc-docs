@@ -6,6 +6,7 @@
 
 <p align="center">
 <a href="https://github.com/iYuanLtd/mc-docs"><img alt="GitHub stars" src="https://img.shields.io/github/stars/iYuanLtd/mc-docs?style=social"></a>
+<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img alt="GitHub stars" src="https://img.shields.io/static/v1?label=LICENSE&message=CC-BY-NC-ND-4.0&color=blue"></a>
 </p>
 
 
