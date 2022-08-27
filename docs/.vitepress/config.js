@@ -11,7 +11,7 @@ export default {
     themeConfig: {
         // 页脚配置
         footer: {
-            message: 'Released under the GPL License.',
+            message: 'Released under the CC BY-NC-ND 4.0 License.',
             copyright: 'Copyright © 2022 iYuan Ltd.'
         },
 
