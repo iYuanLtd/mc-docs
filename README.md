@@ -1,14 +1,13 @@
 <p align="center">
 <a href="https://mcdocs.iyuan.ltd/" target="_blank" rel="noreferrer noopener">
-  <img src="https://raw.githubusercontent.com/iYuanLtd/mc-docs/main/docs/public/assets/img/logo.svg" alt="Minecraft Guide" width="300">
+  <img src="https://raw.githubusercontent.com/iYuanLtd/mc-docs/main/docs/public/assets/img/github.png" alt="Minecraft Guide" width="500">
 </a>
-<br>
-我的世界指南
 </p>
 
 <p align="center">
 <a href="https://github.com/iYuanLtd/mc-docs"><img alt="GitHub stars" src="https://img.shields.io/github/stars/iYuanLtd/mc-docs?style=social"></a>
 </p>
+
 
 ## 🚀 特点
 
@@ -19,5 +18,5 @@
 
 ## 🥳 访问地址
 
-- [Vercel部署、独立域名](https://mcdocs.iyuan.ltd/)
+- [主地址 推荐](https://mcdocs.iyuan.ltd/)
 - [Vercel部署、备用域名](https://mc-docs.vercel.app/)
